@@ -1,13 +1,11 @@
-# Spring Boot Task Scheduling Example
+# Spring Boot Task Scheduling
 
-Learn how to schedule tasks with Spring Boot -
+Agendamento de tarefas com Spring Boot -
 
-https://www.callicoder.com/spring-boot-task-scheduling-with-scheduled-annotation/
 
 ## Requirements
 
 1. Java - 1.8.x
-
 2. Maven - 3.x.x
 
 ## Steps to setup
@@ -15,18 +13,18 @@ https://www.callicoder.com/spring-boot-task-scheduling-with-scheduled-annotation
 **1. Clone the application**
 
 ```bash
-git clone git@github.com:callicoder/spring-boot-scheduler-example.git
+git clone https://github.com/cassiolpaixao90/spring-boot-scheduler.git
 ```
 
 **2. Build and run the app using maven**
 
 ```bash
-cd spring-boot-scheduler-example
+cd spring-boot-scheduler
 mvn package
 java -jar target/scheduler-demo-0.0.1-SNAPSHOT.jar
 ```
 
-You can also run the app without packaging it using -
+Você também pode executar o aplicativo sem empacotá-lo usando -
 
 ```bash
 mvn spring-boot:run
